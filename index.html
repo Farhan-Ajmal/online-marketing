@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: #FF6363;" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">Inner Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-success me-4" type="submit">Free Templates</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-5 col-md-5 intro">
+                    <h1 class="text-white font-weight-bold mb-4">Get Paid Easily <br/>without Hassle</h1>
+                    <p class="text-white mb-4">Far far away, behind the word mountains, far from the <br/>countries Vokalia and Consonantia, there live the blind <br/>texts. Separated they live.</p>
+                    <form action="#" class="sign-up-form d-flex">
+                        <input type="text" class="form-control" placeholder="Enter email address">
+                        <input type="submit" class="btn btn-primary" value="Sign up">
+                    </form>
+                </div>
+                <div class="col-sm-12 col-lg-5 col-md-5 hero_img">
+                    <img src="https://preview.colorlib.com/theme/easy/images/xhero_img.png.pagespeed.ic.DEbE9QfN2U.webp" alt="Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="https://preview.colorlib.com/theme/easy/images/logo-puma.png.webp" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-3">
+                    <img src="https://preview.colorlib.com/theme/easy/images/logo-adobe.png.webp" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-3">
+                    <img src="https://preview.colorlib.com/theme/easy/images/logo-google.png.webp" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-3">
+                    <img src="https://preview.colorlib.com/theme/easy/images/logo-paypal.png.webp" alt="Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="features">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <strong class="f-strong">Awesome Features</strong>
+                <h2 class="font-weight-bold">Cool Features</h2>
+                <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4 f-columns">
+                    <div class="f_img"> 
+                        <img src="https://preview.colorlib.com/theme/easy/images/flaticon/svg/002-coins.svg" class="img-fluid" alt="">
+                    </div>
+                    <h3>Cash Collection</h3>
+                    <p>Manage your invoces from creation to payment. With Upflow you'll collect 100% of.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 f-columns">
+                    <div class="f_img"> 
+                        <img src="https://preview.colorlib.com/theme/easy/images/flaticon/svg/001-stats.svg" class="img-fluid" alt="">
+                    </div>
+                    <h3>Analytics</h3>
+                    <p>Manage your invoces from creation to payment. With Upflow you'll collect 100% of.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 f-columns">
+                    <div class="f_img"> 
+                        <img src="https://preview.colorlib.com/theme/easy/images/flaticon/svg/006-garage.svg" class="img-fluid" alt="">
+                    </div>
+                    <h3>Payment</h3>
+                    <p>Manage your invoces from creation to payment. With Upflow you'll collect 100% of.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 f-columns">
+                    <div class="f_img"> 
+                        <img src="https://preview.colorlib.com/theme/easy/images/flaticon/svg/002-coins.svg" class="img-fluid" alt="">
+                    </div>
+                    <h3>Cash Collection</h3>
+                    <p>Manage your invoces from creation to payment. With Upflow you'll collect 100% of.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 f-columns">
+                    <div class="f_img"> 
+                        <img src="https://preview.colorlib.com/theme/easy/images/flaticon/svg/001-stats.svg" class="img-fluid" alt="">
+                    </div>
+                    <h3>Analytics</h3>
+                    <p>Manage your invoces from creation to payment. With Upflow you'll collect 100% of.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 f-columns">
+                    <div class="f_img"> 
+                        <img src="https://preview.colorlib.com/theme/easy/images/flaticon/svg/006-garage.svg" class="img-fluid" alt="">
+                    </div>
+                    <h3>Payment</h3>
+                    <p>Manage your invoces from creation to payment. With Upflow you'll collect 100% of.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Reviews -->
+      <div class="container reviews">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4 r-columns">
+            <strong class="f-strong">Join Now</strong>
+            <h2 class="font-weight-bold">Join More Than 90,000+ Amazing People Loves Our Product</h2>
+            <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            <button class="btn btn-primary" type="submit">Product Tour</button>
+          </div>
+          <div class="col-sm-12 col-md-1 col-lg-1">
+
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 customer-logos">
+            <div class="slide">
+              <span>
+                <img src="https://preview.colorlib.com/theme/easy/images/xperson_1.jpg.pagespeed.ic.xVOD9vMtws.webp">
+              </span> 
+              <span>
+                <b>Jennifer Smith</b>, Owner, Greenland, Inc.
+              </span>
+              <span>
+                <b>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet."
+                </b>
+              </span>				
+            </div>
+            <div class="slide"> 
+              <span>
+                <img src="https://preview.colorlib.com/theme/easy/images/xperson_4.jpg.pagespeed.ic.QBmniJybS-.webp">
+              </span> 
+              <span>
+                <b>Jennifer Smith</b>, Owner, Greenland, Inc.
+              </span>
+              <span>
+                <b>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet."
+                </b> 
+              </span> 
+            </div>
+            <div class="slide"> 
+              <span>
+                <img src="https://preview.colorlib.com/theme/easy/images/xperson_2.jpg.pagespeed.ic.nNeR9J9CNv.webp">
+              </span> 
+              <span>
+                <b>Jennifer Smith</b>, Owner, Greenland, Inc.
+              </span>
+              <span>
+                <b>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet."
+                </b>
+              </span> 
+            </div>
+            <div class="slide"> 
+              <span>
+                <img src="https://preview.colorlib.com/theme/easy/images/xperson_4.jpg.pagespeed.ic.QBmniJybS-.webp">
+              </span> 
+              <span>
+                <b>Jennifer Smith</b>, Owner, Greenland, Inc.
+              </span>
+              <span>
+                <b>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet."
+                </b>
+              </span> 
+            </div>                 
+          </div>
+        </div>
+      </div>
+
+      <!-- features-2 -->
+      <div class="marginFromTop features-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <strong class="f-strong">Life Changing App</strong>
+              <h2 class="font-weight-bold">Far far away, behind the word mountains</h2>
+              <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+              <button class="btn btn-primary" type="submit">Get Started</button>
+            </div>
+            
+            <div class="col-sm-12 col-md-7 col-lg-7">
+              <img src="https://preview.colorlib.com/theme/easy/images/undraw_make_it_rain_iwk4.svg" alt="Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <!-- features-3 -->
+      <div class="marginFromTop features-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-7 col-lg-7">
+              <img src="https://preview.colorlib.com/theme/easy/images/undraw_wallet_aym5.svg" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-1 col-lg-1">
+      
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <strong class="f-strong">Life Changing App</strong>
+              <h2 class="font-weight-bold">Far far away, behind the word mountains</h2>
+              <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+              <button class="btn btn-primary" type="submit">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- pricing -->
+      <div class="marginFromTop pricing">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="p-title">
+                  <strong class="f-strong">PRICING FOR EVERYONE</strong>
+                  <h2 class="font-weight-bold">Our Pricing</h2>
+                  <div style="display: inline;">
+                    <span class="text-grey">Yearly</span>
+                    <span class="yearly-plan">save 25%</span>
+                  </div>
+                </div>
+                
+                <div class="col-sm-12 col-md-4 col-lg-4 p-columns">
+                  <h3>Personal</h3>
+                  <p class="text-muted">Far far away, behind the word mountains</p>
+                  <hr>
+                  <div class="price">$29</div>
+                  <div class="per-month">Per Month</div>
+                  <ul class="">
+                    <li>Far far away, behind the word mountains</li>
+                    <li>Far far away, behind the word mountains</li>
+                  </ul>
+                  <button class="btn btn-primary" type="submit">Get Started</button>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 p-columns active">
+                  <h3>Enterprise</h3>
+                  <p class="text-muted">Far far away, behind the word mountains</p>
+                  <hr>
+                  <div class="price">$49</div>
+                  <div class="per-month">Per Month</div>
+                  <ul class="">
+                    <li>Far far away, behind the word mountains</li>
+                    <li>Far far away, behind the word mountains</li>
+                  </ul>
+                  <button class="btn btn-primary" type="submit">Get Started</button>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 p-columns">
+                  <h3>Enterprise</h3>
+                  <p class="text-muted">Far far away, behind the word mountains</p>
+                  <hr>
+                  <div class="price">$99</div>
+                  <div class="per-month">Per Month</div>
+                  <ul class="">
+                    <li>Far far away, behind the word mountains</li>
+                    <li>Far far away, behind the word mountains</li>
+                  </ul>
+                  <button class="btn btn-primary" type="submit">Get Started</button>
+                </div>
+            </div>
+        </div>
+      </div>  
+
+      <!-- Blog Posts -->
+      <div class="blog">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="b-title">
+              <strong class="f-strong">Blog</strong>
+              <h2 class="font-weight-bold">Blog Posts</h2>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 b-columns">
+              <div class="image">
+                <a href="#" class="ref"><img src="./img/tv.jpg" alt="Image" class="img-fluid " ></a>
+                <div class="image-overlay">
+
+                </div>
+              </div>
+              <div class="b-description">
+                <span class="text-muted">May 14, 2020</span>
+                <h4>Far far away, behind the word mountains</h4>
+                <p>Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+                <span class="read-more">
+                  <a href="">Read More</a>
+                </span>
+              </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-3 col-lg-3 b-columns">
+              <div class="image">
+                <a href="#" class="ref"><img src="./img/laptop.jpg" alt="Image" class="img-fluid " ></a>
+                <div class="image-overlay">
+
+                </div>
+              </div>
+              
+              <div class="b-description">
+                <span class="text-muted">May 14, 2020</span>
+                <h4>Far far away, behind the word mountains</h4>
+                <p>Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+                <span class="read-more">
+                  <a href="">Read More</a>
+                </span>
+              </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-3 col-lg-3 b-columns">
+              <div class="image">
+                <a href="#" class="ref"><img src="./img/office.jpg" alt="Image" class="img-fluid " ></a>
+                <div class="image-overlay">
+
+                </div>
+              </div>
+              <div class="b-description">
+                <span class="text-muted">May 14, 2020</span>
+                <h4>Far far away, behind the word mountains</h4>
+                <p>Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+                <span class="read-more">
+                  <a href="">Read More</a>
+                </span>
+              </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-3 col-lg-3 b-columns">
+              <div class="image">
+                <a href="#" class="ref"><img src="./img/ceiling-lamp.jpg" alt="Image" class="img-fluid " ></a>
+                <div class="image-overlay">
+
+                </div>
+              </div>
+              <div class="b-description">
+                <span class="text-muted">May 14, 2020</span>
+                <h4>Far far away, behind the word mountains</h4>
+                <p>Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+                <span class="read-more">
+                  <a href="">Read More</a>
+                </span>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-sm-12 col-md-4 col-lg-4 widgets">
+              <h4>About</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+              <h4>Connect with us</h4>
+              <ul>
+                <li class="footer-li"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li class="footer-li"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="footer-li"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="footer-li"><a href=""><i class="fa-brands fa-dribbble"></i></a></li>
+                <li class="footer-li"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 navigations">
+              <div class="row">
+                <h4>Navigations</h4>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 f-n-columns">
+                  <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Work</a></li>
+                    <li><a href="">Process</a></li>
+                    <li><a href="">About Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 f-n-columns">
+                  <ul>
+                    <li><a href="">Press</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Privacy</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 f-n-columns">
+                  <ul>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Process</a></li>
+                    <li><a href="">About Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row copyright">
+            <div class="col-12">
+              <p class="text-center">Copyright ©2022 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by Colorlib</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./js/myscripts.js"></script>
+  </body>
+</html>
