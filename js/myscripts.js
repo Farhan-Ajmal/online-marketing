@@ -2,12 +2,12 @@ $(document).ready(function () {
     $(".customer-logos").slick({
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 1500,
       nextArrow: '<div class="next_arrow"></div>',
       prevArrow: '<div class="prev_arrow"></div>',
       arrows: false,
-      dots: false,
+      dots: true,
       pauseOnHover: true,
     });
   });
