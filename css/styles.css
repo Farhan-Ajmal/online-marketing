@@ -12,7 +12,7 @@ body {
 .btn-primary{
     background-color: #FF6363;
     border: none;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .nav-link:hover{

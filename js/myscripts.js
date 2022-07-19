@@ -7,7 +7,7 @@ $(document).ready(function () {
       nextArrow: '<div class="next_arrow"></div>',
       prevArrow: '<div class="prev_arrow"></div>',
       arrows: false,
-      dots: true,
+      dots: false,
       pauseOnHover: true,
     });
   });

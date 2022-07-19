@@ -42,3 +42,139 @@ padding: 40px;
     transform: translate(-50%, -50%);
 }
 
+/* accordian */
+.accordian, .video, .form{
+  margin-bottom: 1rem;
+}
+.accordian .accordian-column{
+  background-color: #ffffff;
+}
+.question-title {
+  display: flex;
+  padding-bottom: 1rem;
+}
+.question-title p {
+	margin-bottom: 0;
+  color: #999999;
+}
+.question-btn {
+	font-size: .8rem;
+  margin-right: 2rem;
+  border: none;
+  background-color: #ffffff;
+  color: #999999;
+}
+.question-btn .question-text{
+  display: inline-block; 
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+.answer-text {
+	padding: 1rem 0 1.5rem 0;
+}
+.answer-text p {
+	font-size: 1rem;
+	background-color: #f9f9f9;
+}
+  /* hide text */
+.answer-text {
+	display: none;
+}
+.show-text .answer-text {
+	display: block;
+}
+.show-text .question-btn *{
+	color: #FF6363;
+  font-weight: bold;
+}
+.minus-icon {
+	display: none;
+}
+.show-text .minus-icon {
+	display: inline;
+}
+.show-text .plus-icon {
+	display: none;
+}
+/* video */
+.video{
+  position: relative;
+}
+.video span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #0000000D;
+}
+.video span i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FF6363;
+}
+/* form */
+.form{
+  background-color: #ffffff;
+  padding: 40px;
+}
+.form-control{
+  border: 2px solid #e9ecef;
+}
+.form-check-input:checked {
+  background-color: #FF6363;
+  border-color: #FF6363;
+}
+/* social-icons */
+.social-icons ul {
+  list-style-type: none;
+  margin-left: -8%;
+}
+.social-icons ul li{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  position: relative;
+}
+.social-icons ul a{
+  text-decoration: none;
+  color: #000000;
+}
+.social-icons ul li i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Testimonial */
+.slider>span>img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+.slider>span{
+  text-align: center;
+  display: block;
+  margin: 10px;
+}
+
+/* team */
+.team .img-fluid{
+  border-radius: 8%;
+  margin: 0 0 24px;
+}
+.team .team-title{
+  text-align: center;
+}
+.team .col-6{
+  padding-right: 0 20px;
+}
