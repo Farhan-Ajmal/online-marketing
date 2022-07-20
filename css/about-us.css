@@ -1,14 +1,14 @@
-body{
+/* body{
     line-height: 1.8;
-}
+} */
 p{
     color: #000839;
 }
-.default-margin{
+/* .default-margin{
     margin: 5rem 0;
-}
+} */
 .about-us-columns{
-padding: 40px;
+padding: 0 40px;
 }
 /* img carausel */
 .carousel-indicators {
