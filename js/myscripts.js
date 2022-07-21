@@ -25,7 +25,7 @@ const para = document.querySelectorAll('.para');
 const heading2 = document.querySelectorAll('.heading2');
 const heading3 = document.querySelectorAll('.heading3');
 const heading4 = document.querySelectorAll('.heading4');
-const toggle = document.querySelectorAll('.toggle');
+const toggle = document.querySelector('.toggle');
 toggle.onclick = function(){
   toggle.classList.toggle('active');
   body.classList.toggle('active');
