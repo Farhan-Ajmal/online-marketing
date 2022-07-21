@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
@@ -18,6 +20,9 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="toggle">
+              <i class="indicator"></i>
+            </div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" style="color: #FF6363;" aria-current="page" href="index.html">Home</a>
@@ -51,7 +56,7 @@
       <div class="hero">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-lg-5 col-md-5 intro">
+                <div class="col-sm-12 col-lg-5 col-md-5 intro" data-aos="fade-up" data-aos-duration="500">
                     <h1 class="text-white font-weight-bold mb-4">Get Paid Easily <br/>without Hassle</h1>
                     <p class="text-white mb-4">Far far away, behind the word mountains, far from the <br/>countries Vokalia and Consonantia, there live the blind <br/>texts. Separated they live.</p>
                     <form action="#" class="sign-up-form d-flex">
@@ -59,8 +64,8 @@
                         <input type="submit" class="btn btn-primary" value="Sign up">
                     </form>
                 </div>
-                <div class="col-sm-12 col-lg-5 col-md-5 hero_img">
-                    <img src="https://preview.colorlib.com/theme/easy/images/xhero_img.png.pagespeed.ic.DEbE9QfN2U.webp" alt="Image" class="img-fluid">
+                <div class="col-sm-12 col-lg-5 col-md-5 hero_img"data-aos="fade-up" data-aos-duration="1200">
+                    <img src="img/intro-img.webp" alt="Image" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -69,17 +74,17 @@
       <div class="partners">
         <div class="container">
             <div class="row">
-                <div class="col-3">
-                    <img src="https://preview.colorlib.com/theme/easy/images/logo-puma.png.webp" alt="Image" class="img-fluid">
+                <div class="col-3" data-aos="fade-up" data-aos-duration="300">
+                    <img src="img/logo-puma.webp" alt="Image" class="img-fluid">
                 </div>
-                <div class="col-3">
-                    <img src="https://preview.colorlib.com/theme/easy/images/logo-adobe.png.webp" alt="Image" class="img-fluid">
+                <div class="col-3" data-aos="fade-up" data-aos-duration="600">
+                    <img src="img/logo-adobe.webp" alt="Image" class="img-fluid">
                 </div>
-                <div class="col-3">
-                    <img src="https://preview.colorlib.com/theme/easy/images/logo-google.png.webp" alt="Image" class="img-fluid">
+                <div class="col-3" data-aos="fade-up" data-aos-duration="900">
+                    <img src="img/logo-google.webp" alt="Image" class="img-fluid">
                 </div>
-                <div class="col-3">
-                    <img src="https://preview.colorlib.com/theme/easy/images/logo-paypal.png.webp" alt="Image" class="img-fluid">
+                <div class="col-3" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="img/logo-paypal.webp" alt="Image" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -87,52 +92,52 @@
 
       <div class="features paddingtopbottom">
         <div class="container">
-            <div class="row justify-content-center text-center">
+            <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-duration="2000">
                 <strong class="f-strong">Awesome Features</strong>
-                <h2 class="font-weight-bold">Cool Features</h2>
-                <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <h2 class="heading2">Cool Features</h2>
+                <p class="para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-4 f-columns">
+                <div class="col-sm-12 col-md-4 col-lg-4 f-columns" data-aos="fade-up" data-aos-duration="300">
                     <div class="f_img"> 
-                        <img src="https://preview.colorlib.com/theme/easy/images/flaticon/svg/002-coins.svg" class="img-fluid" alt="">
+                        <img src="img/coins.svg" class="img-fluid" alt="">
                     </div>
-                    <h3>Cash Collection</h3>
+                    <h3 class="heading3">Cash Collection</h3>
                     <p>Manage your invoces from creation to payment. With Upflow you'll collect 100% of.</p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 f-columns">
+                <div class="col-sm-12 col-md-4 col-lg-4 f-columns" data-aos="fade-up" data-aos-duration="600">
                     <div class="f_img"> 
-                        <img src="https://preview.colorlib.com/theme/easy/images/flaticon/svg/001-stats.svg" class="img-fluid" alt="">
+                        <img src="img/stats.svg" class="img-fluid" alt="">
                     </div>
-                    <h3>Analytics</h3>
+                    <h3 class="heading3">Analytics</h3>
                     <p>Manage your invoces from creation to payment. With Upflow you'll collect 100% of.</p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 f-columns">
+                <div class="col-sm-12 col-md-4 col-lg-4 f-columns" data-aos="fade-up" data-aos-duration="900">
                     <div class="f_img"> 
-                        <img src="https://preview.colorlib.com/theme/easy/images/flaticon/svg/006-garage.svg" class="img-fluid" alt="">
+                        <img src="img/garage.svg" class="img-fluid" alt="">
                     </div>
-                    <h3>Payment</h3>
+                    <h3 class="heading3">Payment</h3>
                     <p>Manage your invoces from creation to payment. With Upflow you'll collect 100% of.</p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 f-columns">
+                <div class="col-sm-12 col-md-4 col-lg-4 f-columns" data-aos="fade-up" data-aos-duration="300">
                     <div class="f_img"> 
-                        <img src="https://preview.colorlib.com/theme/easy/images/flaticon/svg/002-coins.svg" class="img-fluid" alt="">
+                        <img src="img/coins.svg" class="img-fluid" alt="">
                     </div>
-                    <h3>Cash Collection</h3>
+                    <h3 class="heading3">Cash Collection</h3>
                     <p>Manage your invoces from creation to payment. With Upflow you'll collect 100% of.</p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 f-columns">
+                <div class="col-sm-12 col-md-4 col-lg-4 f-columns" data-aos="fade-up" data-aos-duration="600">
                     <div class="f_img"> 
-                        <img src="https://preview.colorlib.com/theme/easy/images/flaticon/svg/001-stats.svg" class="img-fluid" alt="">
+                        <img src="img/stats.svg" class="img-fluid" alt="">
                     </div>
-                    <h3>Analytics</h3>
+                    <h3 class="heading3">Analytics</h3>
                     <p>Manage your invoces from creation to payment. With Upflow you'll collect 100% of.</p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 f-columns">
+                <div class="col-sm-12 col-md-4 col-lg-4 f-columns" data-aos="fade-up" data-aos-duration="900">
                     <div class="f_img"> 
-                        <img src="https://preview.colorlib.com/theme/easy/images/flaticon/svg/006-garage.svg" class="img-fluid" alt="">
+                        <img src="img/garage.svg" class="img-fluid" alt="">
                     </div>
-                    <h3>Payment</h3>
+                    <h3 class="heading3">Payment</h3>
                     <p>Manage your invoces from creation to payment. With Upflow you'll collect 100% of.</p>
                 </div>
             </div>
@@ -142,19 +147,19 @@
       <!-- Reviews -->
       <div class="container reviews paddingtopbottom">
         <div class="row">
-          <div class="col-sm-12 col-md-4 col-lg-4 r-columns">
+          <div class="col-sm-12 col-md-4 col-lg-4 r-columns" data-aos="fade-up" data-aos-duration="300">
             <strong class="f-strong">Join Now</strong>
-            <h2 class="font-weight-bold">Join More Than 90,000+ Amazing People Loves Our Product</h2>
-            <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            <h2 class="heading2">Join More Than 90,000+ Amazing People Loves Our Product</h2>
+            <p class="para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             <button class="btn btn-primary" type="submit">Product Tour</button>
           </div>
           <div class="col-sm-12 col-md-1 col-lg-1">
 
           </div>
-          <div class="col-sm-12 col-md-7 col-lg-7 customer-logos">
+          <div class="col-sm-12 col-md-7 col-lg-7 customer-logos" data-aos="fade-up" data-aos-duration="3000">
             <div class="slide">
               <span>
-                <img src="https://preview.colorlib.com/theme/easy/images/xperson_1.jpg.pagespeed.ic.xVOD9vMtws.webp">
+                <img src="img/person_1.webp">
               </span> 
               <span>
                 <b>Jennifer Smith</b>, Owner, Greenland, Inc.
@@ -167,7 +172,7 @@
             </div>
             <div class="slide"> 
               <span>
-                <img src="https://preview.colorlib.com/theme/easy/images/xperson_4.jpg.pagespeed.ic.QBmniJybS-.webp">
+                <img src="img/person_2.webp">
               </span> 
               <span>
                 <b>Jennifer Smith</b>, Owner, Greenland, Inc.
@@ -180,7 +185,7 @@
             </div>
             <div class="slide"> 
               <span>
-                <img src="https://preview.colorlib.com/theme/easy/images/xperson_2.jpg.pagespeed.ic.nNeR9J9CNv.webp">
+                <img src="img/person_3.webp">
               </span> 
               <span>
                 <b>Jennifer Smith</b>, Owner, Greenland, Inc.
@@ -193,7 +198,7 @@
             </div>
             <div class="slide"> 
               <span>
-                <img src="https://preview.colorlib.com/theme/easy/images/xperson_4.jpg.pagespeed.ic.QBmniJybS-.webp">
+                <img src="img/person_2.webp">
               </span> 
               <span>
                 <b>Jennifer Smith</b>, Owner, Greenland, Inc.
@@ -212,34 +217,34 @@
       <div class="features-2 paddingtopbottom">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="col-sm-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="400">
               <strong class="f-strong">Life Changing App</strong>
-              <h2 class="font-weight-bold">Far far away, behind the word mountains</h2>
-              <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+              <h2 class="heading2">Far far away, behind the word mountains</h2>
+              <p class="">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
               <button class="btn btn-primary" type="submit">Get Started</button>
             </div>
             
-            <div class="col-sm-12 col-md-7 col-lg-7">
-              <img src="https://preview.colorlib.com/theme/easy/images/undraw_make_it_rain_iwk4.svg" alt="Image" class="img-fluid">
+            <div class="col-sm-12 col-md-7 col-lg-7" data-aos="fade-up" data-aos-duration="100">
+              <img src="img/undraw.svg" alt="Image" class="img-fluid">
             </div>
           </div>
         </div>
       </div>
 
-            <!-- features-3 -->
+      <!-- features-3 -->
       <div class="features-2 paddingtopbottom">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-7 col-lg-7">
-              <img src="https://preview.colorlib.com/theme/easy/images/undraw_wallet_aym5.svg" alt="Image" class="img-fluid">
+            <div class="col-sm-12 col-md-7 col-lg-7" data-aos="fade-up" data-aos-duration="100">
+              <img src="img/undraw_wallet.svg" alt="Image" class="img-fluid">
             </div>
             <div class="col-sm-12 col-md-1 col-lg-1">
       
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="col-sm-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="400">
               <strong class="f-strong">Life Changing App</strong>
-              <h2 class="font-weight-bold">Far far away, behind the word mountains</h2>
-              <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+              <h2 class="heading2">Far far away, behind the word mountains</h2>
+              <p class="">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
               <button class="btn btn-primary" type="submit">Get Started</button>
             </div>
           </div>
@@ -250,46 +255,48 @@
       <div class="pricing paddingtopbottom">
         <div class="container">
             <div class="row justify-content-center text-center">
-                <div class="p-title">
+                <div class="p-title" data-aos="fade-up">
                   <strong class="f-strong">PRICING FOR EVERYONE</strong>
-                  <h2 class="font-weight-bold">Our Pricing</h2>
-                  <div style="display: inline;">
-                    <span class="text-grey">Yearly</span>
+                  <h2 class="heading2">Our Pricing</h2>
+                  <div style="display: inline-block;">
+                    <span class="">Monthly</span>
+                    <span class="price-toggle" style="display: inline-block;"><i class="indicator"></i></span>
+                    <span class="">Yearly</span>
                     <span class="yearly-plan">save 25%</span>
                   </div>
                 </div>
                 
                 <div class="col-sm-12 col-md-4 col-lg-4 p-columns">
-                  <h3>Personal</h3>
-                  <p class="text-muted">Far far away, behind the word mountains</p>
+                  <h3 class="heading3">Personal</h3>
+                  <p class="">Far far away, behind the word mountains</p>
                   <hr>
-                  <div class="price">$29</div>
-                  <div class="per-month">Per Month</div>
-                  <ul class="">
+                  <div class="price1">$29</div>
+                  <div class="per-month">Per <span class="month">Month</span><span class="month">Month</span><span class="month">Month</span></div>
+                  <ul class="price-ul">
                     <li>Far far away, behind the word mountains</li>
                     <li>Far far away, behind the word mountains</li>
                   </ul>
                   <button class="btn btn-primary" type="submit">Get Started</button>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-4 p-columns active">
-                  <h3>Enterprise</h3>
-                  <p class="text-muted">Far far away, behind the word mountains</p>
+                  <h3 class="heading3">Enterprise</h3>
+                  <p class="">Far far away, behind the word mountains</p>
                   <hr>
-                  <div class="price">$49</div>
-                  <div class="per-month">Per Month</div>
-                  <ul class="">
+                  <div class="price2">$49</div>
+                  <div class="per-month">Per</div>
+                  <ul class="price-ul">
                     <li>Far far away, behind the word mountains</li>
                     <li>Far far away, behind the word mountains</li>
                   </ul>
                   <button class="btn btn-primary" type="submit">Get Started</button>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-4 p-columns">
-                  <h3>Enterprise</h3>
-                  <p class="text-muted">Far far away, behind the word mountains</p>
+                  <h3 class="heading3">Enterprise</h3>
+                  <p class="">Far far away, behind the word mountains</p>
                   <hr>
-                  <div class="price">$99</div>
-                  <div class="per-month">Per Month</div>
-                  <ul class="">
+                  <div class="price3">$99</div>
+                  <div class="per-month">Per</div>
+                  <ul class="price-ul">
                     <li>Far far away, behind the word mountains</li>
                     <li>Far far away, behind the word mountains</li>
                   </ul>
@@ -303,11 +310,11 @@
       <div class="blog paddingtopbottom">
         <div class="container">
           <div class="row justify-content-center text-center">
-            <div class="b-title">
+            <div class="b-title" data-aos="fade-up" data-aos-duration="500">
               <strong class="f-strong">Blog</strong>
-              <h2 class="font-weight-bold">Blog Posts</h2>
+              <h2 class="heading2">Blog Posts</h2>
             </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 b-columns">
+            <div class="col-sm-12 col-md-3 col-lg-3 b-columns" data-aos="fade-up" data-aos-duration="300">
               <div class="image">
                 <a href="#" class="ref"><img src="./img/tv.jpg" alt="Image" class="img-fluid " ></a>
                 <div class="image-overlay">
@@ -316,7 +323,7 @@
               </div>
               <div class="b-description">
                 <span class="text-muted">May 14, 2020</span>
-                <h4>Far far away, behind the word mountains</h4>
+                <h4 class="heading4">Far far away, behind the word mountains</h4>
                 <p>Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
                 <span class="read-more">
                   <a href="">Read More</a>
@@ -324,7 +331,7 @@
               </div>
             </div>
             
-            <div class="col-sm-12 col-md-3 col-lg-3 b-columns">
+            <div class="col-sm-12 col-md-3 col-lg-3 b-columns" data-aos="fade-up" data-aos-duration="600">
               <div class="image">
                 <a href="#" class="ref"><img src="./img/laptop.jpg" alt="Image" class="img-fluid " ></a>
                 <div class="image-overlay">
@@ -334,7 +341,7 @@
               
               <div class="b-description">
                 <span class="text-muted">May 14, 2020</span>
-                <h4>Far far away, behind the word mountains</h4>
+                <h4 class="heading4">Far far away, behind the word mountains</h4>
                 <p>Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
                 <span class="read-more">
                   <a href="">Read More</a>
@@ -342,7 +349,7 @@
               </div>
             </div>
             
-            <div class="col-sm-12 col-md-3 col-lg-3 b-columns">
+            <div class="col-sm-12 col-md-3 col-lg-3 b-columns" data-aos="fade-up" data-aos-duration="900">
               <div class="image">
                 <a href="#" class="ref"><img src="./img/office.jpg" alt="Image" class="img-fluid " ></a>
                 <div class="image-overlay">
@@ -351,7 +358,7 @@
               </div>
               <div class="b-description">
                 <span class="text-muted">May 14, 2020</span>
-                <h4>Far far away, behind the word mountains</h4>
+                <h4 class="heading4">Far far away, behind the word mountains</h4>
                 <p>Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
                 <span class="read-more">
                   <a href="">Read More</a>
@@ -359,7 +366,7 @@
               </div>
             </div>
             
-            <div class="col-sm-12 col-md-3 col-lg-3 b-columns">
+            <div class="col-sm-12 col-md-3 col-lg-3 b-columns" data-aos="fade-up" data-aos-duration="1200">
               <div class="image">
                 <a href="#" class="ref"><img src="./img/ceiling-lamp.jpg" alt="Image" class="img-fluid " ></a>
                 <div class="image-overlay">
@@ -368,7 +375,7 @@
               </div>
               <div class="b-description">
                 <span class="text-muted">May 14, 2020</span>
-                <h4>Far far away, behind the word mountains</h4>
+                <h4 class="heading4">Far far away, behind the word mountains</h4>
                 <p>Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
                 <span class="read-more">
                   <a href="">Read More</a>
@@ -385,21 +392,21 @@
         <div class="container">
           <div class="row justify-content-between">
             <div class="col-sm-12 col-md-4 col-lg-4 widgets">
-              <h4>About</h4>
+              <h3 class="heading3">About</h3>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
-              <h4>Connect with us</h4>
+              <h3 class="heading3">Connect with us</h3>
               <ul>
-                <li class="footer-li"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li class="footer-li"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                <li class="footer-li"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                <li class="footer-li"><a href=""><i class="fa-brands fa-dribbble"></i></a></li>
-                <li class="footer-li"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li class=""><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li class=""><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li class=""><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li class=""><a href=""><i class="fa-brands fa-dribbble"></i></a></li>
+                <li class=""><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
               </ul>
             </div>
 
             <div class="col-sm-12 col-md-6 col-lg-6 navigations">
               <div class="row">
-                <h4>Navigations</h4>
+                <h3 class="heading3">Navigations</h3>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-4 f-n-columns">
                   <ul>
                     <li><a href="">Home</a></li>
@@ -442,6 +449,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Animate -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./js/myscripts.js"></script>
+
   </body>
 </html>

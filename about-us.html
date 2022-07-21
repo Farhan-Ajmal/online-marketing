@@ -9,7 +9,10 @@
     <!-- slick -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- lightbox -->
     <link rel="stylesheet" href="css/lightbox.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/about-us.css">
     <script src="js/lightbox-plus-jquery.min.js"></script>
@@ -24,6 +27,9 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="toggle">
+              <i class="indicator"></i>
+            </div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" style="color: #FF6363;" aria-current="page" href="index.html">Home</a>
@@ -58,13 +64,13 @@
       <div class="hero">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-lg-5 col-md-5 intro">
-                    <h1 class="text-white font-weight-bold mb-4">Elements & Insights </h1>
+                <div class="col-sm-12 col-lg-5 col-md-5 intro" data-aos="fade-up" data-aos-duration="500">
+                    <h1 class="text-white font-weight-bold mb-4">Elements & <br/>Insights </h1>
                     <p class="text-white mb-4">Far far away, behind the word mountains, far from the <br/>countries Vokalia and Consonantia, there live the blind <br/>texts. Separated they live.</p>
                     <input type="submit" class="btn btn-primary" value="Get Started">
                 </div>
-                <div class="col-sm-12 col-lg-5 col-md-5 hero_img">
-                    <img src="https://preview.colorlib.com/theme/easy/images/xhero_img.png.pagespeed.ic.DEbE9QfN2U.webp" alt="Image" class="img-fluid">
+                <div class="col-sm-12 col-lg-5 col-md-5 hero_img"data-aos="fade-up" data-aos-duration="1200">
+                    <img src="img/intro-img.webp" alt="Image" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -73,11 +79,11 @@
       <div class="about-us paddingtopbottom">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-12 col-md-5 col-lg-5 about-us-columns">
+                <div class="col-12 col-md-5 col-lg-5 about-us-columns" data-aos="fade-up" data-aos-duration="600">
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 about-us-columns">
+                <div class="col-12 col-md-6 col-lg-6 about-us-columns" data-aos="fade-up" data-aos-duration="1000">
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                 </div>
@@ -86,7 +92,7 @@
       </div>
 
       <!-- carausel -->
-      <div id="carouselExampleCaptions" class="carousel slide paddingtopbottom" style="background: #f2f5f9;" data-bs-ride="false">
+      <div id="carouselExampleCaptions" class="carousel slide paddingtopbottom" data-bs-ride="false" data-aos="fade-up" data-aos-duration="1000">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -94,13 +100,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://preview.colorlib.com/theme/easy/images/xbg_1.jpg.pagespeed.ic.d7sNGsSpfZ.webp" class="d-block w-100" alt="...">
+            <img src="img/xbg_1.webp" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="https://preview.colorlib.com/theme/easy/images/xbg_2.jpg.pagespeed.ic.z-qd60m3rs.webp" class="d-block w-100" alt="...">
+            <img src="img/xbg_2.webp" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="https://preview.colorlib.com/theme/easy/images/xbg_3.jpg.pagespeed.ic.bR3hhnvLJv.webp" class="d-block w-100" alt="...">
+            <img src="img/xbg_3.webp" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -185,24 +191,24 @@
                   <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="row">
                       <div class="col-4 mb-2">
-                        <a href="https://preview.colorlib.com/theme/easy/images/xgal_1.jpg.pagespeed.ic.V12iBwOGIs.webp" data-lightbox="mygallery"><img class="img-fluid" src="https://preview.colorlib.com/theme/easy/images/xgal_1.jpg.pagespeed.ic.V12iBwOGIs.webp" alt=""></a>
+                        <a href="img/xgal_1.webp" data-lightbox="mygallery"><img class="img-fluid" src="img/xgal_1.webp" alt=""></a>
                       </div>
                       <div class="col-4 mb-2">
-                        <a href="https://preview.colorlib.com/theme/easy/images/xgal_2.jpg.pagespeed.ic.mDALWHAaWm.webp" data-lightbox="mygallery"><img class="img-fluid" src="https://preview.colorlib.com/theme/easy/images/xgal_2.jpg.pagespeed.ic.mDALWHAaWm.webp" alt=""></a>
+                        <a href="img/xgal_2.webp" data-lightbox="mygallery"><img class="img-fluid" src="img/xgal_2.webp" alt=""></a>
                       </div>
                       <div class="col-4 mb-2">
-                        <a href="https://preview.colorlib.com/theme/easy/images/xgal_3.jpg.pagespeed.ic.GnLGzx0EBQ.webp" data-lightbox="mygallery"><img class="img-fluid" src="https://preview.colorlib.com/theme/easy/images/xgal_3.jpg.pagespeed.ic.GnLGzx0EBQ.webp" alt=""></a>
+                        <a href="img/xgal_3.webp" data-lightbox="mygallery"><img class="img-fluid" src="img/xgal_3.webp" alt=""></a>
                       </div>
                     </div>
                     <div class="row mt-2">
                       <div class="col-4 mb-2">
-                        <a href="https://preview.colorlib.com/theme/easy/images/xgal_4.jpg.pagespeed.ic.iYqeJnU_mN.webp" data-lightbox="mygallery"><img class="img-fluid" src="https://preview.colorlib.com/theme/easy/images/xgal_4.jpg.pagespeed.ic.iYqeJnU_mN.webp" alt=""></a>
+                        <a href="img/xgal_4.webp" data-lightbox="mygallery"><img class="img-fluid" src="img/xgal_4.webp" alt=""></a>
                       </div>
                       <div class="col-4 mb-2">
-                        <a href="https://preview.colorlib.com/theme/easy/images/xgal_5.jpg.pagespeed.ic.FkJUYQ5VW3.webp" data-lightbox="mygallery"><img class="img-fluid" src="https://preview.colorlib.com/theme/easy/images/xgal_5.jpg.pagespeed.ic.FkJUYQ5VW3.webp" alt=""></a>
+                        <a href="img/xgal_5.webp" data-lightbox="mygallery"><img class="img-fluid" src="img/xgal_5.webp" alt=""></a>
                       </div>
                       <div class="col-4 mb-2">
-                        <a href="https://preview.colorlib.com/theme/easy/images/xgal_6.jpg.pagespeed.ic.ElI8ZrRwGr.webp" data-lightbox="mygallery"><img class="img-fluid" src="https://preview.colorlib.com/theme/easy/images/xgal_6.jpg.pagespeed.ic.ElI8ZrRwGr.webp" alt=""></a>
+                        <a href="img/xgal_6.webp" data-lightbox="mygallery"><img class="img-fluid" src="img/xgal_6.webp" alt=""></a>
                       </div>
                     </div>
                   </div>
@@ -213,7 +219,7 @@
                 <div class="row video">
                   <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                     <a href="https://www.youtube.com/watch?v=9YffrCViTVk" target="_blank" >
-                      <img class="img-fluid" src="https://preview.colorlib.com/theme/easy/images/xbg_1.jpg.pagespeed.ic.d7sNGsSpfZ.webp" alt="">
+                      <img class="img-fluid" src="img/xbg_1.webp" alt="">
                       <span>
                         <i class="fa-solid fa-play"></i>
                       </span>
@@ -292,7 +298,7 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 testimonial">
               <div class="slider">
                 <span>
-                  <img src="https://preview.colorlib.com/theme/easy/images/xperson_4.jpg.pagespeed.ic.QBmniJybS-.webp">
+                  <img src="img/person_2.webp">
                 </span> 
                 <span>
                   <b>Kayla Bryant</b>
@@ -303,7 +309,7 @@
               </div>
               <div class="slider">
                 <span>
-                  <img src="https://preview.colorlib.com/theme/easy/images/xperson_2.jpg.pagespeed.ic.nNeR9J9CNv.webp">
+                  <img src="img/person_3.webp">
                 </span> 
                 <span>
                   <b>Adam Anderson</b>
@@ -314,7 +320,7 @@
               </div>
               <div class="slider">
                 <span>
-                  <img src="https://preview.colorlib.com/theme/easy/images/xperson_3.jpg.pagespeed.ic.Up8lsr1jQn.webp">
+                  <img src="img/person_4.webp">
                 </span> 
                 <span>
                   <b>Lukas Devlin</b>
@@ -335,38 +341,38 @@
           <div class="row justify-content-center">
               <div class="team-title mb-5">
                 <strong class="f-strong">LEADERSHIP</strong>
-                <h2 class="font-weight-bold">Our team</h2>
+                <h2 class="heading2">Our team</h2>
               </div>
               <div class="col-8 justify-content-center">
                 <div class="row justify-content-around">
                   <div class="col-6">
-                    <img class="img-fluid" src="https://preview.colorlib.com/theme/easy/images/xperson_1.jpg.pagespeed.ic.xVOD9vMtws.webp" alt="">
+                    <img class="img-fluid" src="img/person_1.webp" alt="">
                     <div class="px-3">
                      <h4>James Watson</h4>
-                     <span class="text-muted">Co-Founder & CEO</span>
+                     <span class="designation">Co-Founder & CEO</span>
                     </div>      
                   </div>
                   <div class="col-6 mt-5">
-                    <img class="img-fluid" src="https://preview.colorlib.com/theme/easy/images/xperson_2.jpg.pagespeed.ic.nNeR9J9CNv.webp" alt="">
+                    <img class="img-fluid" src="img/person_2.webp" alt="">
                     <div class="px-3">
                      <h4>Carl Anderson</h4>
-                     <span class="text-muted">Co-Founder & CEO</span>
+                     <span class="designation">Co-Founder & CEO</span>
                     </div> 
                   </div>
                 </div>
                 <div class="row justify-content-around">
                   <div class="col-6">
-                    <img class="img-fluid" src="https://preview.colorlib.com/theme/easy/images/xperson_4.jpg.pagespeed.ic.QBmniJybS-.webp" alt="">
+                    <img class="img-fluid" src="img/person_3.webp" alt="">
                     <div class="px-3">
                      <h4>James Watson</h4>
-                     <span class="text-muted">Co-Founder & CEO</span>
+                     <span class="designation">Co-Founder & CEO</span>
                     </div>      
                   </div>
                   <div class="col-6 mt-5">
-                    <img class="img-fluid" src="https://preview.colorlib.com/theme/easy/images/person_3.jpg.webp" alt="">
+                    <img class="img-fluid" src="img/person_4.webp" alt="">
                     <div class="px-3">
                      <h4>Carl Anderson</h4>
-                     <span class="text-muted">Co-Founder & CEO</span>
+                     <span class="designation">Co-Founder & CEO</span>
                     </div> 
                   </div>
                 </div>
@@ -441,6 +447,11 @@
     <!-- slick -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Animate -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="js/about-us.js"></script>
   </body>
 </html>

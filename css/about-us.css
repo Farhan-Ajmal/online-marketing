@@ -1,16 +1,25 @@
 /* body{
     line-height: 1.8;
 } */
-p{
+/* p{
     color: #000839;
-}
+} */
 /* .default-margin{
     margin: 5rem 0;
 } */
 .about-us-columns{
 padding: 0 40px;
 }
+.active .heading2{
+  color: #eee;
+}
 /* img carausel */
+.carousel{
+  background-color: #f2f5f9;
+}
+.active .carousel{
+  background-color: #000000;
+}
 .carousel-indicators {
     position: absolute;
     bottom: 10%;
@@ -53,10 +62,10 @@ padding: 0 40px;
   display: flex;
   padding-bottom: 1rem;
 }
-.question-title p {
+/* .question-title p {
 	margin-bottom: 0;
   color: #999999;
-}
+} */
 .question-btn {
 	font-size: .8rem;
   margin-right: 2rem;
@@ -177,4 +186,13 @@ padding: 0 40px;
 }
 .team .col-6{
   padding-right: 0 20px;
+}
+.team .col-6 .designation{
+  font-size: 15px;
+  line-height: 1.8;
+  color: #5F5F5F;
+  margin-bottom: 15px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  font-family: 'Catamaran', sans-serif;
 }
